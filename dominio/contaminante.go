@@ -8,3 +8,8 @@ const (
 	SO2  Contaminante = "SO2"
 	NO2  Contaminante = "NO2"
 )
+
+type DatoContaminante struct {
+	Valor      float64
+	Disponible bool
+}

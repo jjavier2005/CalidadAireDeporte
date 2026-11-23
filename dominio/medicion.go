@@ -4,9 +4,8 @@ import "time"
 
 type Medicion struct {
 	FechaHora time.Time
-	Valores   map[Contaminante]float64
+	Valores   map[Contaminante]DatoContaminante
 }
-
 type Historial struct {
 	Mediciones []Medicion
 }
